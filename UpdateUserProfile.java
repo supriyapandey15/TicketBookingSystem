@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.supriya.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,12 +10,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainException;
-import com.shashi.beans.UserBean;
-import com.shashi.constant.UserRole;
-import com.shashi.service.UserService;
-import com.shashi.service.impl.UserServiceImpl;
-import com.shashi.utility.TrainUtil;
+import com.supriya.beans.TrainException;
+import com.supriya.beans.UserBean;
+import com.supriya.constant.UserRole;
+import com.supriya.service.UserService;
+import com.supriya.service.impl.UserServiceImpl;
+import com.supriya.utility.TrainUtil;
 
 @SuppressWarnings("serial")
 @WebServlet("/updateuserprofile")
