@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.supriya.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,12 +10,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainException;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.TrainService;
-import com.shashi.service.impl.TrainServiceImpl;
-import com.shashi.utility.TrainUtil;
+import com.supriya.beans.TrainException;
+import com.supriya.constant.ResponseCode;
+import com.supriya.constant.UserRole;
+import com.supriya.service.TrainService;
+import com.supriya.service.impl.TrainServiceImpl;
+import com.supriya.utility.TrainUtil;
 
 @WebServlet("/admincancletrain")
 public class AdminCancleTrain extends HttpServlet {
