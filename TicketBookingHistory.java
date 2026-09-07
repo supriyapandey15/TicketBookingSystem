@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.supriya.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.HistoryBean;
-import com.shashi.beans.TrainException;
-import com.shashi.constant.UserRole;
-import com.shashi.service.BookingService;
-import com.shashi.service.impl.BookingServiceImpl;
-import com.shashi.utility.TrainUtil;
+import com.supriya.beans.HistoryBean;
+import com.supriya.beans.TrainException;
+import com.supriya.constant.UserRole;
+import com.supriya.service.BookingService;
+import com.supriya.service.impl.BookingServiceImpl;
+import com.supriya.utility.TrainUtil;
 
 @SuppressWarnings("serial")
 @WebServlet("/bookingdetails")
